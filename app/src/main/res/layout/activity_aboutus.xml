@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.appmerise.appmeriseinc.AboutusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbarSize="3.2dip"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Appmerise team-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="08dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="10dp">
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:padding="5dp"
+                            android:text="Appmerise Team"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+
+                            android:layout_height="match_parent"
+                            android:lineSpacingMultiplier="1.2"
+                            android:padding="10dp"
+                            android:text="@string/aboutus"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <!-- CEO Hari Govinth-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="08dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:padding="5dp"
+                        android:text="Harigovinth E CEO"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="5"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="2"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/harig" />
+
+
+                        <TextView
+                            android:layout_weight="3"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:lineSpacingMultiplier="1.2"
+                            android:padding="10dp"
+                            android:text="@string/abouthari"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- CEO  Co founder Hari Easwar-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="08dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:padding="5dp"
+                        android:text="Hari Eshwar G CEO,Co-Founder"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="5"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="2"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/harie" />
+
+
+                        <TextView
+                            android:layout_weight="3"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:lineSpacingMultiplier="1.2"
+                            android:padding="10dp"
+                            android:text="@string/aboutharie"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- CTO   Arun Sudharsan-->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="08dp"
+                card_view:cardCornerRadius="2dp"
+                card_view:contentPadding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:padding="5dp"
+                        android:text="Arun Sudharsan CTO"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="5"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="2"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/arun" />
+
+
+                        <TextView
+                            android:layout_weight="3"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:lineSpacingMultiplier="1.2"
+                            android:padding="10dp"
+                            android:text="@string/aboutarun"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
